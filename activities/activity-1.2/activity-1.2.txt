@@ -1,0 +1,103 @@
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.2.0                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: 4securitas.com 
+
+
+[93m[!] Missing API key for binaryedge. [0m
+
+[93m[!] Missing API key for Censys ID and/or Secret. [0m
+
+[93m[!] Missing API key for fullhunt. [0m
+
+[93m[!] Missing API key for Github. [0m
+
+[93m[!] Missing API key for Hunter. [0m
+
+[93m[!] Missing API key for Intelx. [0m
+
+[93m[!] Missing API key for PentestTools. [0m
+
+[93m[!] Missing API key for ProjectDiscovery. [0m
+
+[93m[!] Missing API key for RocketReach. [0m
+
+[93m[!] Missing API key for Securitytrail. [0m
+
+[93m[!] Missing API key for virustotal. [0m
+
+[93m[!] Missing API key for zoomeye. [0m
+An exception has occurred: Cannot serialize non-str key None
+[94m[*] Searching Anubis. 
+An exception has occurred: Cannot connect to host dns.bufferover.run:443 ssl:<ssl.SSLContext object at 0x7f3468179cc0> [Name or service not known]
+	Searching 0 results.
+[94m[*] Searching Bing. 
+[94m[*] Searching Baidu. 
+	Searching results.
+[94m[*] Searching Certspotter. 
+[94m[*] Searching CRTsh. 
+[94m[*] Searching Duckduckgo. 
+[94m[*] Searching Hackertarget. 
+[94m[*] Searching Dnsdumpster. 
+[94m[*] Searching Otx. 
+[94m[*] Searching Rapiddns. 
+An exception has occurred: Cannot connect to host api.sublist3r.com:443 ssl:<ssl.SSLContext object at 0x7f346840aac0> [Name or service not known]
+[94m[*] Searching Sublist3r. 
+[94m[*] Searching Qwant. 
+An exception has occurred: Cannot connect to host www.threatcrowd.org:443 ssl:True [SSLCertVerificationError: (1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.threatcrowd.org'. (_ssl.c:997)")]
+string indices must be integers
+[94m[*] Searching Threatcrowd. 
+[94m[*] Searching Urlscan. 
+An exception has occurred: 0, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url=URL('https://sonar.omnisint.io/all/4securitas.com?page=1')
+[94m[*] Searching Omnisint. 
+[94m[*] Searching Threatminer. 
+
+[*] ASNS found: 2
+--------------------
+AS13335
+AS14618
+
+[*] Interesting Urls found: 3
+--------------------
+https://4securitas.com/
+https://4securitas.com/ioc-and-apt/
+https://helpdesk.4securitas.com/access/unauthenticated
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 11
+-------------------
+3.214.40.59
+18.200.187.231
+34.248.8.96
+34.252.249.251
+35.239.252.152
+54.166.65.115
+104.16.51.111
+104.16.53.111
+
+[*] No emails found.
+
+[*] Hosts found: 21
+---------------------
+adeng.4securitas.com
+cra.4securitas.com:185.164.179.80
+helpdesk.4securitas.com:104.16.51.111, 104.16.53.111
+staging.4securitas.com:20.240.6.101
+staging.4securitas.com:18.200.187.231
+stagings.4securitas.com:34.248.8.96
+stagings.4securitas.com
+support.4securitas.com:104.16.51.111, 104.16.53.111
+www.4securitas.com:3.214.40.59
